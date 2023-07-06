@@ -166,7 +166,9 @@
 
 			<div class="main-content">
 
-				<div class="main-content-inner" id="body_content" name="body_content"></div>
+				<div class="main-content-inner" id="body_content" name="body_content">
+
+                </div>
 			</div>
 		</div>
 
@@ -174,7 +176,7 @@
 			<div class="footer-inner">
 				<div class="footer-content">
 					<span class="bigger-120">
-						Municipio de Jesús María 2021 - 2024
+						Templates
 					</span>
 
 
@@ -251,3 +253,23 @@
 
 		<!--Alert-->
 		<script src="https://unpkg.com/sweetalert@2.1.0/dist/sweetalert.min.js"></script>
+        <script>
+            function cambiarcont(pagina)
+			{
+			    $("#body_content").html("<img src='img/exit.gif' class='img-responsive center-block' alt='Cargando...' />");
+			    $("#body_content").load(pagina);
+				$("#body_content").fadeIn(10000);
+			}
+
+			$(document).ready(function() {
+			
+				    	$("#body_content").html("<img src='img/exit.gif' class='img-responsive center-block' alt='Cargando...' />");
+					    $('#body_content').load('view/bienvenida.php');
+						$("#body_content").fadeIn(10000);					
+			});
+
+			$("#sidebar ul.nav li").click(function(){
+				$("#sidebar ul.nav li.active").removeClass("active");
+				$(this).addClass("active");
+			});
+        </script>
