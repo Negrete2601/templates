@@ -119,6 +119,7 @@
 </div>
 <br>
 <br>
+<h1>Imputs con botones</h1>
 <div class="row">
   <div class="col-lg-6">
     <div class="input-group">
@@ -140,3 +141,61 @@
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
 </div><!-- /.row -->
+<br>
+<h1>Inputs con botones y menús desplegables</h1>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+      <input type="text" class="form-control" aria-label="...">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  </div><!-- /.row -->
+  <br>
+  <div class="row">
+        <div class="col-lg-6">
+            <div class="input-group">
+                <input type="text" class="form-control" aria-label="...">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div><!-- /btn-group -->
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+    <br>
+    <br>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fa-brands fa-discord"></i></span>
+        <input name="repassword" id="repassword" placeholder="Confirmar Contraseña" class="col-xs-12 col-sm-10" type="password" required/>
+    </div>
+    <br>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fa-brands fa-linux"></i></span>
+        <input name="repassword" id="repassword" placeholder="Confirmar Contraseña" class="col-xs-12 col-sm-10" type="password" required/>
+    </div>
+    <br>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fa-sharp fa-regular fa-heart"></i></span>
+        <input name="repassword" id="repassword" placeholder="Confirmar Contraseña" class="col-xs-12 col-sm-10" type="password" required/>
+    </div>
+    <br>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fa-sharp fa-solid fa-image"></i></span>
+        <input name="repassword" id="repassword" placeholder="Confirmar Contraseña" class="col-xs-12 col-sm-10" type="password" required/>
+    </div>
