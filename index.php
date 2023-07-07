@@ -148,15 +148,14 @@
 						<b class="arrow"></b>
 					</li>
                     <li>
-						<a href="index.php">
-							<i class="menu-icon fa fa-home"></i>
+						<a href="javascript:cambiarcont('view/ejemplobotones.php');">
+							<i class="menu-icon fa fa-hand-pointer-o"></i>
 							<span class="menu-text"> Botones </span>
 						</a>
 
 						<b class="arrow"></b>
 					</li>
-
-									
+                    
 				</ul>
 
 				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
